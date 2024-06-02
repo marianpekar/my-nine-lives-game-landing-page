@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta property="og:url"                 content="https://myninelivesgame.com">
+    <meta property="og:type"                content="website">
+    <meta property="og:title"               content="My Nine Lives Game">
+    <meta property="og:description"         content="A game that has been created to help stray cats. 100% of revenue will be donated!">
+    <meta property="og:image"               content="https://myninelivesgame.com/media/og-image.png">
+    <meta property="og:image:type"          content="image/png">
+    <meta property="og:image:width"         content="1200">
+    <meta property="og:image:height"        content="630">
+
+    <meta name="twitter:site"               content="@myninelivesgame">
+    <meta name="twitter:creator"            content="@marianpekar">
+    <meta name="twitter:title"              content="My Nine Lives Game">
+    <meta name="twitter:description"        content="A game that has been created to help stray cats. 100% of revenue will be donated!">
+    <meta name="twitter:image"              content="https://myninelivesgame.com/media/twitter-image.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84741648-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-84741648-2');
+    </script>
+
+    <!-- Load Stripe.js on your website. -->
+    <script src="https://js.stripe.com/v3"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" href="media/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Mr+Dafoe&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>My Nine Lives | Get a game save a cat</title>
+    <meta name="description" content="My Nine Lives is a cat survival game with an infinite procedurally generated and colorful world. 100% of revenue will be donated!">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="my-5">My&nbsp;Nine&nbsp;Lives</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h2 class="mt-2 mb-1">Get the game and save a cat!</h2>
+                <p>My Nine Lives is a cat survival game with an infinite procedurally generated and colorful world.</p>
+                <p>You can get the game for free or help making lives of stray cats better 🐱. <a href="#supported">Tell me more</a></p>
+
+                <div class="col text-center">
+                    <a href="https://twitter.com/myninelivesgame"><img class="m-3 no-phone" src="media/twitter2.svg" alt="@myninelivesgame"></a>
+                </div>  
+
+            </div>
+            <div class="col mt-1">
+                <table class="mb-3">
+                    <tr class="col mt-4">
+                        <td>
+                            <button disabled class="btn btn-light tier-button" id=""
+                            role="link"><span class="price">$1.00</span><br>Friendly Meow</button>
+                        </td>
+                        <td>
+                            <button disabled class="btn btn-light tier-button" id=""
+                            role="link"><span class="price">$5.00</span><br>High Paw</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button disabled class="btn btn-light tier-button" id=""
+                            role="link"><span class="price">$15.00</span><br>Cat Hero</button>
+                        </td>
+                        <td>                  
+                            <button disabled class="btn btn-light tier-button" id=""
+                            role="link"><span class="price">$25.00</span><br>Purr Love</button>
+                        </td>
+                    </tr>
+                </table>
+                <p><strong>The project has ended.</strong> I'm very grateful for all donations that have been sent to help stray cats. You can still <a href="success.html">download</a> the game for free.</p>
+            </div>
+        </div>
+
+        <div class="row mt-3 my-4">
+            <div class="col text-center">
+                <div class="trailer">
+                    <iframe src="https://player.vimeo.com/video/428956981?autoplay=0&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="col text-center">
+            <a href="https://twitter.com/myninelivesgame"><img class="mb-3 no-desktop" src="media/twitter2.svg" alt="@myninelivesgame"></a>
+        </div>  
+    </div>
+
+    <div class="container-fluid green-background" id="supported">
+        <div class="container py-4">
+            <div class="row mt-5">
+                <div class="col">
+                    <h2>100% of the revenue has been donated to...</h2>
+                    <ul class="mt-4">
+                        <li>
+                            <a href="https://www.kocicitlapky.cz" target="_blank">Opuštěné kočičí tlapky, z.s.</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="http://www.luckycats.cz" target="_blank">Lucky Cats, z.s.</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="http://devet-zivotu.cz/about-us" target="_blank">Devět životů, o.p.s.</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="container-fluid blue-background" id="podcast">
+        <div class="container py-4">
+            <div class="row mt-5">
+                <div class="col">
+                    <h2>“My Nine Lives is not only for raising money, but also to raise awareness.”</h2>
+                    <p class="m-4">
+                        Find out more about this project by listening to the 🔊 <a href="https://www.communitycatspodcast.com/episode-353-marian-pekar/" target="_blank">episode #353 of The Cat Community Podcast</a>. 
+                    </p>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="container-fluid dark-background" id="faq">
+        <div class="container py-4">
+            <div class="row mt-5">
+                <div class="col">
+                    <h2>FAQ</h2>
+                    <ul>
+                        <li>
+                            <h3 class="mt-4">Can I run My Nine Lives on my device?</h3>
+                            My Nine Lives is compatible with <strong>Windows, Linux, OS X and Android (version 4.4 'KitKat' and later)</strong>.
+                        </li>  
+                        <li>
+                            <h3 class="mt-4">All the money will be used to help stray cats, right?</h3>
+                            The project has ended and donations are no longer accepted. If you want to help cats, please donate directly to any cat charity, there's plenty of them and many cats still need help.
+                        </li>
+                        <li>
+                            <h3 class="mt-4">I like the mission, is there anything else I can do?</h3>
+                            Of course, even just spreading the word and sharing this website on social networks would be a great help, and if you have any idea or proposal how to help, I'd be happy to hear that, so please, send me an e-mail to <a href="mailto:marian.pekar@gmail.com">marian.pekar@gmail.com</a> or DM me on Twitter <a href="https://twitter.com/marianpekar">@marianpekar</a>.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="container-fluid black-background" id="about-project">
+        <div class="container py-4">
+            <div class="row mt-5 flex-row-reverse">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <img class="mb-4" src="media/max.png" alt="Max, the lucky cat">
+                </div>
+                <div class="col">
+                    <h3 class="my-3">My furry friend, me and this project</h3>
+                    <p class="mb-3">
+                        Hi! My name is Marian and this is Max. I'm a software developer based in Brno, Czech Republic and Max used to be a stray kitten until fate brought us together in winter 2017.
+                    </p> 
+                    <p class="mb-3">
+                        The poor little fellow was found malnourished in snow and almost died, luckily he's fine now. A healthy well-fed fully grown cat, just look at him :-).
+                    </p>
+                    <p class="mb-3">
+                        But not all stories end so well. Max was lucky, he was found by one of those admirable people who actively help stray cats. 
+                    </p>
+                    <p class="mb-3">
+                        They catch them, give them necessary medical treatment, and then feed them and provide shelter until someone is willing to adopt. That takes time, and of course, money.
+                    </p>
+                    <p class="mb-3">
+                        I decided to use my knowledge and invest time and effort to build this game to raise money to help stray cats. They need our help.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-1 pb-3">
+                <div class="col">
+                    <img class="ml-2 mr-2" src="media/me.png" alt="Me"><a href="https://twitter.com/marianpekar"><img class="m-1" src="media/twitter.svg" alt="@marianpekar"></a><a href="mailto:marian.pekar@gmail.com"><img class="m-1" src="media/email.svg" alt="marian.pekar@gmail.com"></a>
+                    <img class="ml-4" src="media/signature.png" alt="Marian Pekár Signed">
+                </div>              
+            </div>
+        </div>
+    </div>   
+
+    <!-- <script type="text/javascript" src="js/stripe-checkout.js"></script> -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+  </body>
+</html>

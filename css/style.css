@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(45deg, #d51fdb 33%, #3ab5ee 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #eeeeee;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Mr Dafoe";
+  color: #eeeeee;
+  font-size: 6em;
+  text-shadow: 2px 2px 8px #c5c5c5;
+}
+
+h1.smaller {
+  font-size: 3em;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.trailer {
+  width: 100% !important;
+  height: auto !important;
+  padding:56.25% 0 0 0;
+  position:relative;
+}
+
+.price {
+  font-size: 1.4em;
+}
+
+.tier-button {
+  width: 15em;
+}
+
+.no-desktop {
+  display: none;
+}
+
+@media only screen and (max-width: 770px) {
+  h1 {
+    font-size: 3em;
+  }
+  
+  .tier-button {
+    width: 10em;
+  }
+
+  .no-phone {
+    display: none;
+  }
+
+  .no-desktop {
+    display: inline;
+  }
+}
+
+.green-background {
+  background-color: #43a58d;
+}
+
+.blue-background {
+  background-color: #4a7bbb;
+}
+
+.dark-background {
+  background-color: #1e2833;
+}
+
+.black-background {
+  background-color: #10151b;
+}
+
+.screenshots tr td {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.platform-logo {
+  padding: 1em;
+}
+
+td {
+  color: #eeeeee;
+}
+
+a {
+  color: #eeeeee;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #eeeeee;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+a:hover {
+  color: #ffc107;
+}
+
+img.flag {
+  width: 2.2em;
+  height: 2.2em;
+}
+
+img.flag:hover {
+  cursor: pointer;
+}
